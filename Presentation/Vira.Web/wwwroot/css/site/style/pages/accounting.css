@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contactFix .indent.demo { display: block; }
+
+.widthParallel { position: relative; }
+#wrraper { background: #323232 url(../../image/screen/home/WEB-background-website-.png) center 8% fixed; background-size: 130% auto; }
+#accounting { margin: 50px auto; direction: rtl; font-size: 1.4rem; line-height: 27px; background-color: #FFF; padding: 30px; border-top: 5px solid #d22a33; }
+#accounting h2 { font-size: 2.2rem; color: #d71920; }
+#accounting hr { border-color: #f55359; }
+#accounting h3 { font-size: 1.7rem; }
+#accounting img { width: 100%; }
+#accounting p { font-family: karalight; text-align: justify; }
+#accounting #bottom { margin-top: 40px; direction: rtl; }
+#accounting #bottom .nav li a { outline: none; border-radius: 0; }
+#accounting #bottom .nav li.active a { border-top: 2px solid #F80000; }
+#accounting #bottom .nav li { float: right; }
+#accounting #bottom ul li { width: 100%; margin-bottom: 4px; list-style: disc inside; font-family: karalight; }
+#accounting #bottom p { font-family: karalight; line-height: 25px; margin-top: 20px; }
+#accounting #brands { width: 90%; margin: 50px auto; }
+#accounting #brands h2 { margin-bottom: 40px; font-size: 2rem; text-align: center; }
+#accounting #brands .flickity-viewport { height: 80px !important; width: 90%; margin: auto; }
+#accounting #brands ul li { width: 145px; position: relative; height: 80px; margin-left: 20px; text-align: center; }
+#accounting #brands ul li img { width: 55%; }
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	#accounting { padding: 10px; }
+	#accounting [class*="col-"] { width: 100%; padding: 0; }
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

@@ -1,0 +1,12 @@
+P:\Tutorials\01-Projects\Vira\Presentation\Vira.Web.Framework\bin\Debug\netcoreapp2.1\Vira.Web.Framework.deps.json
+P:\Tutorials\01-Projects\Vira\Presentation\Vira.Web.Framework\bin\Debug\netcoreapp2.1\Vira.Web.Framework.dll
+P:\Tutorials\01-Projects\Vira\Presentation\Vira.Web.Framework\bin\Debug\netcoreapp2.1\Vira.Web.Framework.pdb
+P:\Tutorials\01-Projects\Vira\Presentation\Vira.Web.Framework\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Routing.dll
+P:\Tutorials\01-Projects\Vira\Presentation\Vira.Web.Framework\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Routing.xml
+P:\Tutorials\01-Projects\Vira\Presentation\Vira.Web.Framework\obj\Debug\netcoreapp2.1\Vira.Web.Framework.csprojAssemblyReference.cache
+P:\Tutorials\01-Projects\Vira\Presentation\Vira.Web.Framework\obj\Debug\netcoreapp2.1\Vira.Web.Framework.csproj.CoreCompileInputs.cache
+P:\Tutorials\01-Projects\Vira\Presentation\Vira.Web.Framework\obj\Debug\netcoreapp2.1\Vira.Web.Framework.AssemblyInfoInputs.cache
+P:\Tutorials\01-Projects\Vira\Presentation\Vira.Web.Framework\obj\Debug\netcoreapp2.1\Vira.Web.Framework.AssemblyInfo.cs
+P:\Tutorials\01-Projects\Vira\Presentation\Vira.Web.Framework\obj\Debug\netcoreapp2.1\Vira.Web.Framework.csproj.CopyComplete
+P:\Tutorials\01-Projects\Vira\Presentation\Vira.Web.Framework\obj\Debug\netcoreapp2.1\Vira.Web.Framework.dll
+P:\Tutorials\01-Projects\Vira\Presentation\Vira.Web.Framework\obj\Debug\netcoreapp2.1\Vira.Web.Framework.pdb

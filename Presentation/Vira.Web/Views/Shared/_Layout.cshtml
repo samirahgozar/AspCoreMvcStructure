@@ -1,0 +1,292 @@
+﻿@using Newtonsoft.Json
+@using Newtonsoft.Json.Linq
+@{
+    var brands =
+        new JArray(
+
+            new JObject(
+                new JProperty("image", "0020234_tl.png")),
+            new JObject(
+                new JProperty("image", "0020235_bn.png")),
+            new JObject(
+                new JProperty("image", "0020236_nuby.png")),
+            new JObject(
+                new JProperty("image", "0020238_chicc.png")),
+            new JObject(
+                new JProperty("image", "0020236_nuby.png")),
+            new JObject(
+                new JProperty("image", "0020230_hilis-avent.png")),
+            new JObject(
+                new JProperty("image", "0020238_chicc.png")),
+            new JObject(
+                new JProperty("image", "0020237_mustela.png"))
+            );
+
+    var posts =
+        new JArray(
+
+            new JObject(
+                new JProperty("image", "Business-process-automation-gears-370x230.jpg"),
+                new JProperty("title", "تجزیه، تحلیل و طراحی نرم افزارهاي مالی، اداري و صنعتی")),
+            new JObject(
+                new JProperty("image", "brainstorming-business-plan-370x230.jpg"),
+                new JProperty("title", "مشاوره در استقرار و راه اندازي راهكارهاي جامع نرم افزاري")), 
+            new JObject(
+                new JProperty("image", "230x370.jpg"),
+                new JProperty("title", "توليد و توسعه نرم افزارهاي تحت WEB"))       ,
+            new JObject(
+                new JProperty("image", "brainstorming-business-plan-370x230.jpg"),
+                new JProperty("title", "مشاوره در استقرار و راه اندازي راهكارهاي جامع نرم افزاري"))
+            );
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="image/icon/header/red-logo.png" />
+    <title>طرح اندیشان پویا</title>
+
+    <link href="~/css/site/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site/style/screen/reset.css" media="all" />
+    <link rel="stylesheet" href="~/css/site/style/screen/screen.css" media="screen" />
+    <link rel="stylesheet" href="~/css/site/style/screen/themify-icons.css" media="screen" />
+    <link rel="stylesheet" href="~/css/site/style/screen/utility.css" media="screen" />
+    <link rel="stylesheet" href="~/css/site/style/screen/socicon.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="~/css/site/style/pages/home.css" media="screen" />
+    <link rel="stylesheet" href="~/css/site/style/plugin/flickity-docs.css">
+
+    <link rel="stylesheet" href="~/css/site/style/responsive/responsive-devices.css" />
+
+</head>
+<script src="~/js/site/js/jquery-1.11.0.min.js"></script>
+
+<body>
+    @await Html.PartialAsync("navMobile")
+    <header>@await Html.PartialAsync("header")</header>
+
+  
+
+    <section id="wrraper">
+        <article id="banner" class="carousel" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="~/assets/site/image/banner/Mod2.jpg" alt="طرح اندیشان پویا" />
+                </div>
+                <div class="item">
+                    <img src="~/assets/site/image/banner/Mod3.jpg" alt="طرح اندیشان پویا" />
+                </div>
+                <div class="item">
+                    <img src="~/assets/site/image/banner/Mod4.jpg" alt="طرح اندیشان پویا" />
+                </div>
+                <div class="item">
+                    <img src="~/assets/site/image/banner/Mod1.jpg" alt="طرح اندیشان پویا" />
+                </div>
+
+                <ol class="carousel-indicators hidden-xs">
+                    <li data-target="#banner" data-slide-to="0" class="active"></li>
+                    <li data-target="#banner" data-slide-to="1"></li>
+                    <li data-target="#banner" data-slide-to="2"></li>
+                    <li data-target="#banner" data-slide-to="3"></li>
+                </ol>
+
+            </div>
+        </article>
+
+        <article id="product">
+            <div class="centerBox widthParallel">
+                <div id="title">
+                    <h2>محصولات </h2>
+                    <div id="line"></div>
+                </div>
+                <div id="content" class="clearfix">
+                    <div class="indent pull-right" lazy>
+                        <div class="pull-right rightSide clearfix">
+                            <img src="~/assets/site/image/icon/home/Charkhehaye-Farayandi-RR.png" alt="" />
+                        </div>
+                        <div class="pull-left leftSide">
+                            <div class="title">چرخه های فرآیندی</div>
+                            <p>چرخه هاي فرآيندي كه تشكيل دهنده نرم افزار برنامه ريزي منابع سازماني (ERP) مي باشند، مجموعه اي از برنامه هاي كاربردي است كه فرآيندهاي كسب و كار را مديريت مي كنند. استفاده از چرخه هاي فرآيندي به جمع آوری، ذخیره سازی، مدیریت و تفسیر کسب و کارهای مختلف کمک می کند. به عبارت دیگر، نرم افزار برنامه ریزی منابع سازمانی برای مدیریت اتوماتیک و آسان سازی جریان کارهای متقاطع استفاده می شود. هنگامی که برای حل مسائل بصورت بهینه از این نرم افزار استفاده شود، می تواند به صورت کامل و یکپارچه یا خصوصی و مرتبط به فرآیندهای خاص باشد.</p>
+                            <a href="cycle.php">بیشتر بدانید <i class="fa fa-long-arrow-left"></i></a>
+                        </div>
+                    </div>
+                    <div class="indent pull-left" lazy>
+                        <div class="pull-right rightSide clearfix">
+                            <img src="~/assets/site/image/icon/home/Rahkarhaye-pouya-RR.png" alt="" />
+                        </div>
+                        <div class="pull-left leftSide">
+                            <div class="title">راهکارهای پویا</div>
+                            <p>كسب‌ وکارها برای حل مشکلات و مدیریت بهینه فعالیت‌های خود از بسته‌های نرم‌افزاری استفاده می‌کنند که بر اساس فرآیندهایی استاندارد و از پیش طراحی و توسعه داده شده‌اند. به این ترتيب اگر چه ممکن است به راه ‌حلی متوسط دست یابند، اما کاستی هاي این رویکرد در عدم تطابق کامل با نیازمندی‌های شما موجب می‌شود در نهایت ایده ‌آل ‌ترین راه‌ حل را در اختیار نداشته باشند. با استفاده از راهکارهای طرح اندیشان پويا که متناسب با نیازمندی‌ های صنایع مختلف طراحی شده‌اند، می‌توانید جامع‌ترین راهکار را برای اداره کسب‌ و کار خود انتخاب نمائيد.</p>
+                            <a href="approach.php">بیشتر بدانید <i class="fa fa-long-arrow-left"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="service">
+            <div class="centerBox widthParallel">
+                <div id="title">
+                    <h2>خدمات</h2>
+                </div>
+                <div id="content" class="clearfix">
+                    <ul>
+                      
+                           
+
+                            @foreach (var post in posts)
+                            {
+
+
+                                <li>
+                                <div class="cover"><img src="~/assets/site/image/post/@post["image"]" alt="" /></div>
+                                <div class="cl"></div>
+                                <div class="detail">
+                                    <h3>@post["title"]</h3>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرای</p>
+                                </div>
+                                </li>  
+                            }
+
+                       
+                    </ul>
+
+                   
+                </div>
+            </div>
+        </article>
+
+        <article id="brands" class="carousel" data-ride="carousel" data-interval="9000">
+            <div class="centerBox widthParallel carousel-inner clearfix">
+                <div class="item active">
+                    <div id="title">
+                        <h2>مشتریان شرکت</h2>
+                        <div id="line"></div>
+                    </div>
+                    <div class="cl"></div>
+                    <div id="logo"><img src="~/assets/site/image/brand/logo-en.png" /></div>
+                    <p>به کمک راهکار حسابداری و صورت‌های مالی تلفیقی همکاران سیستم محاسبات سرفصل‌های تعدیلات تلفیقی به‌طور هم‌زمان، یک‌جا، در زمانی کم‌تر از یک دقیقه و به‌سادگی انجام می‌شود و می‌توان آن را صحت‌سنجی کرد. به‌علاوه دیگر نیازی به نگهداری فایل‌های Excel و اطلاعات گوناگون یا پراکنده برای محاسبات تلفیق نیست. با امکانات فراهم شده در سیستم، کاربران مختلفی در شرکت خوارزمی می‌توانند به پیش‌بُرد عملیات تلفیق در هلدینگ کمک کنند، در نتیجه، زمان‌بندی‌های قانونی تحویل صورت‌های مالی تلفیقی به‌خوبی مدیریت می‌شود.</p>
+                    <ul id="content" class="clearfix" data-flickity='{ "contain": true, "pageDots": false, "freeScroll": true, "rightToLeft": true, "cellAlign": "right", "groupCells": 1, "prevNextButtons":true, "draggable": false, "autoPlay": true, "wrapAround": true }'>
+                       
+                           
+
+                            @foreach (var brand in brands)
+                            {
+
+                                <li><a><img src="~/assets/site/image/brand/@brand["image"]" alt="" /></a></li>
+                                
+                            }
+                        
+
+                    </ul>
+                </div>
+               
+            </div>
+            @*<ol class="carousel-indicators">
+                <li data-target="#brands" data-slide-to="0" class="active"></li>
+                <li data-target="#brands" data-slide-to="1"></li>
+                <li data-target="#brands" data-slide-to="2"></li>
+                <li data-target="#brands" data-slide-to="3"></li>
+            </ol>*@
+        </article>
+
+
+        <article id="slider" class="carousel" data-ride="carousel">
+            <div class="centerBox widthParallel clearfix carousel-inner">
+                <div class="item active">
+                    <div class="pull-left col-sm-5 no-padding cover">
+                        <img id="img" src="~/assets/site/image/post/sg-farayar.jpg" />
+                        <img src="~/assets/site/image/screen/home/iMac27_PF-PRINT.png" />
+                    </div>
+                    <div class="pull-right col-sm-7 no-padding text">
+                        <h3>سیستم حسابداری و صورت های مالی تلفیقی</h3>
+                        <p>با توجه به چشم انداز سازمان­‌ها و تغییرات محیطی، اهداف و فعالیت‌­های مشخصی ترسیم می‌­شود. بررسی میزان دستیابی به این اهداف، نیازمند بستری برای پیاده‌سازی و مکانیزم‌­های پیش­‌بینی و کنترل آن­‌ها است. سیستم­‌های نرم‌­افزاری و به‌طور خاص ERP ها به ایجاد این بستر کمک می­‌کنند.</p>
+                        <div class="cl"></div>
+                        <a href="">بیشتر بدانید</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pull-left col-sm-5 no-padding cover">
+                        <img id="img" src="~/assets/site/image/post/slide3.png" />
+                        <img src="~/assets/site/image/screen/home/iMac27_PF-PRINT.png" />
+                    </div>
+                    <div class="pull-right col-sm-7 no-padding text">
+                        <h3>سیستم حسابداری و صورت های مالی تلفیقی</h3>
+                        <p>با توجه به چشم انداز سازمان­‌ها و تغییرات محیطی، اهداف و فعالیت‌­های مشخصی ترسیم می‌­شود. بررسی میزان دستیابی به این اهداف، نیازمند بستری برای پیاده‌سازی و مکانیزم‌­های پیش­‌بینی و کنترل آن­‌ها است. سیستم­‌های نرم‌­افزاری و به‌طور خاص ERP ها به ایجاد این بستر کمک می­‌کنند.</p>
+                        <div class="cl"></div>
+                        <a href="">اطلاعات بیشتر</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pull-left col-sm-5 no-padding cover">
+                        <img id="img" src="~/assets/site/image/post/portal-tamin.jpg" />
+                        <img src="~/assets/site/image/screen/home/iMac27_PF-PRINT.png" />
+                    </div>
+                    <div class="pull-right col-sm-7 no-padding text">
+                        <h3>سیستم حسابداری و صورت های مالی تلفیقی</h3>
+                        <p>با توجه به چشم انداز سازمان­‌ها و تغییرات محیطی، اهداف و فعالیت‌­های مشخصی ترسیم می‌­شود. بررسی میزان دستیابی به این اهداف، نیازمند بستری برای پیاده‌سازی و مکانیزم‌­های پیش­‌بینی و کنترل آن­‌ها است. سیستم­‌های نرم‌­افزاری و به‌طور خاص ERP ها به ایجاد این بستر کمک می­‌کنند.</p>
+                        <div class="cl"></div>
+                        <a href="">اطلاعات بیشتر</a>
+                    </div>
+                </div>
+            </div>
+            <a class="arrow ti-angle-right hidden-xs" href="#slider" data-slide="prev"></a>
+            <a class="arrow ti-angle-left hidden-xs" href="#slider" data-slide="next"></a>
+        </article>
+
+        <article id="article">
+            <div class="centerBox widthParallel">
+                <ul class="clearfix">
+                    <li lazy class="pull-right">
+                        <div class="cover">
+                            <img src="~/assets/site/image/post/virtual-team.jpg" alt="" />
+                            <div id="detail">
+                                <div class="clearfix ul">
+                                    <a href="">ورود به صفحه امورسهام</a>
+                                    <a href="">تازه‌ترین خبرهای امورسهام همکاران سیستم</a>
+                                </div>
+                                <div class="cl"></div>
+                                <div class="title">پيوستن به طرح انديشان پويا</div>
+                            </div>
+                        </div>
+                        <p>آخرین اطلاعات و خبرهای امورسهام همکاران سیستم، در این بخش دردسترس شماست.</p>
+                    </li>
+                    <li lazy class="pull-left">
+                        <div class="cover">
+                            <img src="~/assets/site/image/post/743184-636740811069863908-16x9.jpg" alt="" />
+                            <div id="detail">
+                                <div class="clearfix ul">
+                                    <a href="">ورود به صفحه امورسهام</a>
+                                    <a href="">تازه‌ترین خبرهای امورسهام همکاران سیستم</a>
+                                </div>
+                                <div class="cl"></div>
+                                <div class="title">پيوستن به شبكه فروش</div>
+                            </div>
+                        </div>
+                        <p>خانواده‌ی ۱۳۰۰ نفره‌ی توانمند و پرانگیزه‌ی همکاران سیستم مهم‌ترین سرمایه‌ی شرکت به شمار می‌آیند.</p>
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+
+    </section>
+        <footer> @await Html.PartialAsync("footer") </footer>
+
+    @RenderBody()
+    <!-- @*<footer><?php require("layout/footer.html"); ?></footer>*@ -->
+
+</body>
+</html>
+
+<script src="~/js/site/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="~/js/site/js/adds.js"></script>
+<script src="~/js/site/js/pages/home.js"></script>
+<script src="~/js/site/js/plugin/persianber.min.js"></script>
+<script src="~/js/site/js/plugin/jquery.touchSwipe.js"></script>
+<script src="~/js/site/js/plugin/flickity-docs.min.js"></script>
